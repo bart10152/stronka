@@ -5,7 +5,6 @@
 <title>Stefan Stefanowicz</title>
 
 <style>
-
 body{
     margin:0;
     font-family: Comic Sans MS, Arial, sans-serif;
@@ -15,7 +14,7 @@ body{
     overflow:hidden;
 }
 
-/* animowana tęcza */
+/* tęczowe animowane tło */
 .rainbow{
     position:fixed;
     width:200%;
@@ -79,6 +78,21 @@ blockquote{
     text-shadow:0 0 10px pink;
 }
 
+/* rower po prawej w różowej ramce */
+.rower{
+    position:fixed;
+    right:40px;
+    top:50%;
+    transform:translateY(-50%);
+}
+
+.rower img{
+    width:200px;
+    border:6px solid hotpink;
+    border-radius:15px;
+    box-shadow:0 0 20px hotpink;
+}
+
 footer{
     position:fixed;
     bottom:10px;
@@ -86,7 +100,6 @@ footer{
     font-size:14px;
     color:#aaa;
 }
-
 </style>
 </head>
 
@@ -99,7 +112,6 @@ footer{
 </header>
 
 <main>
-
 <h1>Stefan Stefanowicz</h1>
 
 <div class="emoji">
@@ -109,8 +121,11 @@ footer{
 <blockquote>
 "All we have to decide is what to do with the time that is given us." – J.R.R. Tolkien
 </blockquote>
-
 </main>
+
+<div class="rower">
+  <img src="rower.jpg" alt="Rower">
+</div>
 
 <footer>
 nyan nyan nyan • strona kosmiczna • 2026 🚀
